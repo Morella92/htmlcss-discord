@@ -17,6 +17,12 @@ ol, ul, menu{
     list-style: none;
 }
 
+font{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Serif NP Hmong', serif;
+    font-family: 'Roboto', sans-serif;  
+}
+
 .debug-header{
     background-color: #255EE9;
 }
@@ -47,7 +53,8 @@ ol, ul, menu{
 
 .debug2{
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: round;
     padding: 50px;
 }
 
@@ -112,6 +119,11 @@ ol, ul, menu{
 .final-title{
     text-align: center;
     padding: 5px;
+}
+
+.final-title2{
+    text-align: center;
+    padding: 5px;
     background-image: url(../img/stars.svg);
     background-position: bottom;
 }
@@ -122,6 +134,7 @@ ol, ul, menu{
     border-color: #7289DA;
     padding: 5px;
     border-radius: 10px;
+    margin-left: 350px;
 }
 
 .col-aside2{
