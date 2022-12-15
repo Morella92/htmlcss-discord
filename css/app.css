@@ -23,11 +23,11 @@ font{
     font-family: 'Roboto', sans-serif;  
 }
 
-.debug-header{
+.header{
     background-color: #255EE9;
 }
 
-.debug .container{
+.container{
     padding: 20px;
 }
 
@@ -51,7 +51,7 @@ font{
     border-color: white;
 }
 
-.debug2{
+.start-main{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: round;
