@@ -43,19 +43,22 @@ font{
 .nav-elements >* {
     color: white;
    text-decoration: none;
+   padding: 20px;
 }
 
 .header-button{
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 999px;
     border-color: white;
+    line-height: 20px;
+    align-items: center;
 }
 
 .start-main{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-repeat: round;
-    padding: 50px;
+    background-position: center bottom;
+    padding: 200px 0px 180px 0px;
 }
 
 .second{
@@ -67,18 +70,13 @@ font{
     align-self: center;
 }
 
-.col-single{
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
-
 .title{
     padding: 5px;
+    line-height: 1.5em;
 }
 
 .button-download, .button-browser{
-    border-radius: 10px;
+    border-radius: 999px;
     padding: 10px;
 }
 
@@ -93,6 +91,11 @@ font{
     color: white;
 }
 
+.col-single{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
 
 .bg_grey{
     background-color:#F6F6F6 ;
@@ -106,10 +109,13 @@ font{
     flex-basis: 60%;
 }
 
+/* dare font e font-size a tutti i titoli e paragrafi */
 .main-content{ 
     flex-basis: 40%;
     text-align: left;
     padding: 20px;
+    line-height: 1.5em;
+    font-size: 18px;
 }
 
 .row-child{
@@ -133,7 +139,7 @@ font{
     background-color: #7289DA;
     border-color: #7289DA;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 999px;
     margin-left: 350px;
 }
 
@@ -150,6 +156,10 @@ font{
     color: white;
 }
 
+h3{
+    font-size: 25px;
+}
+
 h4{
     color: #7289DA;
 }
@@ -162,11 +172,16 @@ footer{
     flex-basis: 20%;
 }
 
-li{
+a{
+    text-decoration: none;
     color: white;
-    padding: 5px;
+    line-height: 30px;
 }
 
+.border-footer{
+    border-top: 1px solid #7289DA ;
+    padding-top: 24px;
+}
 .row-footer{
     justify-content: space-between;
 }
@@ -175,7 +190,7 @@ li{
     background-color: #7289DA;
     border-color: #7289DA;
     color: white;
-    border-radius: 10px;
+    border-radius: 999px;
     padding: 5px;
 }
 
